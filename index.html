@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeZone</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h2 class="heading">TimeZone API</h2>
+    <h2 class="heading2">Your Current Time Zone</h2>
+
+    <div class="timeZoneContainer">
+      <p id="name">Name Of Time Zone: </p>
+      <p id="lat">Lat: </p>
+      <p id="long">Long: </p>
+      <p id="std">Offset STD: </p>
+      <p id="stdSec">Offset STD Seconds: </p>
+      <p id="dst">Offset DST: </p>
+      <p id="dstSec">Offset DST Seconds: </p>
+      <p id="country">Country: </p>
+      <p id="postcode">Postcode: </p>
+      <p id="city">City: </p>
+    </div>
+
+    <div class="addressDetails">
+      <h2 class="enter">Enter Address</h2>
+
+      <input type="text" placeholder="Address" class="box" />
+      <button id="btn" onclick="displayResult()">Submit</button>
+      
+      <p id="error"></p>
+      <p id="timeZoneError"></p>
+
+      <h2 class="yourResult">Your result</h2>
+
+      <div class="resultContainer">
+        <p id="name2">Name Of Time Zone: </p>
+        <p id="lat2">Lat: </p>
+        <p id="long2">Long: </p>
+        <p id="std2">Offset STD: </p>
+        <p id="stdSec2">Offset STD Seconds: </p>
+        <p id="dst2">Offset DST: </p>
+        <p id="dstSec2">Offset DST Seconds: </p>
+        <p id="country2">Country: </p>
+        <p id="postcode2">Postcode: </p>
+        <p id="city2">City: </p>
+    </div>
+
+    </div>
+  </body>
+</html>
